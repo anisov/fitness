@@ -40,6 +40,7 @@ height: 76px;
 background-color: #131415;
 }
 .container__logo-text{
+	float: left;
 	padding-top:30px; 
 	padding-left: 19px; 
 }
@@ -53,6 +54,31 @@ background-color: #131415;
 	line-height: 54px;
 	text-transform: uppercase;
 	letter-spacing: 1.8px;
+}
+.contacts{
+	float: right;
+	padding-right: 21px; 
+}
+.contacts__phone{
+	height: 18px;
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 54px;
+	text-transform: uppercase;
+}
+.contacts__work{
+	padding-top: 6px;
+	text-align: right;
+	height: 14px;
+	opacity: 0.7;
+	color: #f89513;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 54px;
+	text-decoration: underline;
 }
 .content{
 	width:1100px;
@@ -101,7 +127,6 @@ background-color: #131415;
 	clear: both;
 }
 .comments__avatar{
-	margin-right: 19px;
 	width: 160px;
 	height: 160px;
 	float: left;
@@ -114,6 +139,7 @@ background-color: #131415;
 
 }
 .comments__desc{
+	margin-left: 19px;
 	width: 688px;
 	height: 195px;
 	color: #221f1f;
