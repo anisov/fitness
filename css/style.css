@@ -47,7 +47,6 @@
 	padding-left: 19px; 
 }
 .logo-text{
-	width: 160px;
 	height: 18px;
 	color: #f89513;
 	font-family: "Gora Free";
@@ -62,23 +61,25 @@
 }
 .contacts__phone{
 	height: 18px;
+	margin-top:21px;
+}
+.contacts__href{
+	text-decoration: none;
 	color: #ffffff;
 	font-family: "Open Sans";
 	font-size: 21px;
 	font-weight: 700;
-	line-height: 54px;
+
 	text-transform: uppercase;
 }
 .contacts__work{
 	padding-top: 6px;
 	text-align: right;
-	height: 14px;
 	opacity: 0.7;
 	color: #f89513;
 	font-family: "Open Sans";
 	font-size: 14px;
 	font-weight: 700;
-	line-height: 54px;
 	text-decoration: underline;
 }
 .content{
@@ -99,14 +100,25 @@
 
 }
 .navigation__elem{
+	color: #f89513;
 	height: 9px;
 	margin-bottom:40px;
+
+}
+.navigation__href{
+	text-decoration: none;
 	color: #f89513;
 	font-family: "Open Sans";
 	font-size: 12px;
 	font-weight: 700;
 	text-transform: uppercase;
 	
+}
+.navigation__elem--current{
+	color:#131415; /* почему не работает на ссылку*/ 
+}
+.navigation__href--current{
+	color:#131415;
 }
 .nav-active{
 	letter-spacing: 1.2px;
@@ -238,9 +250,9 @@
 }
 .section-form{
 	clear: both;
-}
-.section-form{
-	margin: auto;
+	margin-top: 70px;
+	margin-left: auto;
+	margin-right: auto;
 	width: 700px;
 	height: 427px;
 	background-color: #f5f5f5;
@@ -323,6 +335,49 @@
 	letter-spacing: 1.2px;
 }
 .footer{
-	margin: auto;
+	margin-top: 70px;
+	width: 100%;
 	clear: both;
+	height: 77px;
+	background-color: #131415;
+}
+.footer__col{
+	height: 77px;
+	float: left;
+	width: 33%;
+
+}
+.footer__text{
+	margin: 14px 0 13px 19px;
+	width: 239px;
+	color: #ffffff;
+	font-family: "Open Sans",sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+}
+.logo-text--center{
+	margin-top: 29px;
+	vertical-align: middle;
+	text-align: center;
+}
+.socials{
+	float: right;
+	text-align: right;
+}
+.socials__text{
+	margin-top: 20px;
+	width: 174px;
+	height: 13px;
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 700;
+
+}
+.socials__list{
+	list-style-type: none;
+}
+.socials__elem{
+	display: inline-block;
+
 }
