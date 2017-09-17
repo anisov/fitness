@@ -213,7 +213,7 @@
 .pagination__pages{
 	float: left;
 	color: #656464;
-	font-family: "Open Sans";
+	font-family: "Open Sans",sans-serif;
 	font-size: 14px;
 	font-weight: 300;
 }
@@ -238,6 +238,89 @@
 }
 .section-form{
 	clear: both;
+}
+.section-form{
+	margin: auto;
+	width: 700px;
+	height: 427px;
+	background-color: #f5f5f5;
+}
+.form{
+	padding-left: 69px;
+}
+.form__header{
+}
+.form__title{
+	color: #221f1f;
+	font-family: "Open Sans";
+	font-size: 49px;
+	font-weight: 700;
+}
+.form__elem{
+	float: left;
+}
+.form__elem:first-child{
+	margin-right: 23px;
+}
+.form__elem-title{
+	padding-bottom: 10px; /* Почему не работает */
+	width: 63px;
+	height: 10px;
+	color: #221f1f;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 300;
+}
+.form__input{
+	margin-top: 10px;
+	display: block;
+	width: 269px;
+	height: 45px;
+	background-color: #ffffff;
+}
+.form__textarea{
+	padding-top: 21px;
+}
+.form__big-text-input{
+	margin-top: 10px;
+	width: 561px;
+	height: 90px;
+	border: 1px solid #f89513;
+	background-color: #ffffff;
+}
+.form__row{
+	clear:both;
+}
+.form__radius-header{
+	color: #221f1f;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 300;
+}
+.form__radio{
+	float: left;
+}
+.form__radio-name{
+	width: 16px;
+	height: 13px;
+	color: #f89513;
+	font-family: "Open Sans";
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 54px;
+}
+.form__submit{
+	width: 125px;
+	height: 45px;
+	background-color: #1c1f1d;
+	float: right;
+	color: #ffffff;
+	font-family: "Open Sans";
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	/* Text style for "Отправить" */
+	letter-spacing: 1.2px;
 }
 .footer{
 	margin: auto;
