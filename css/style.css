@@ -277,21 +277,24 @@
 .form__header{
 }
 .form__title{
+	display: inline-block;
+    margin-top: 52px;
 	color: #221f1f;
 	font-family: "Open Sans";
 	font-size: 49px;
 	font-weight: 700;
+	line-height: 0.66;
+
 }
 .form__elem{
-	float: left;
+	margin-top: 30px;
+	display: inline-block;
 }
 .form__elem:first-child{
 	margin-right: 23px;
 }
 .form__elem-title{
-	padding-bottom: 10px; /* Почему не работает */
-	width: 63px;
-	height: 10px;
+	display: inline-block;
 	color: #221f1f;
 	font-family: "Open Sans";
 	font-size: 14px;
@@ -305,7 +308,7 @@
 	background-color: #ffffff;
 }
 .form__textarea{
-	padding-top: 21px;
+	margin-top: 10px;
 }
 .form__big-text-input{
 	margin-top: 10px;
@@ -317,7 +320,11 @@
 .form__row{
 	clear:both;
 }
+.form__rasius{
+	display: inline-block;
+}
 .form__radius-header{
+	margin-top:  19px;
 	color: #221f1f;
 	font-family: "Open Sans";
 	font-size: 14px;
@@ -325,6 +332,14 @@
 }
 .form__radio{
 	float: left;
+	margin-right: 21px;
+}
+.form__radius-content{
+	margin-bottom: 9px;
+}
+.form__send{
+	display: inline-block;
+
 }
 .form__radio-name{
 	width: 16px;
