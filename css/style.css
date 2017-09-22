@@ -35,6 +35,20 @@
 	margin: 0;
 	padding: 0;
 }
+html, body{
+	width: 100%;
+	height: 100%;
+	line-height: 1.42;
+}
+.wrapper{
+	width: 100%;
+	min-height: 100%;
+}
+.wrapper:after{
+	content: "";
+	display: block;
+	height: 77px;
+}
 .clearfix:after{
 	content:" ";
 	display: block;
@@ -45,7 +59,7 @@
 	height: 76px;
 	background-color: #131415;
 }
-.container__logo-text{
+.header__logo-text{
 	float: left;
 	padding-top:30px;
 	padding-bottom:28px;
@@ -87,7 +101,7 @@
 	font-weight: 700;
 	text-decoration: underline;
 }
-.content{
+.container{
 	width:1100px;
 	margin: auto; 
 }
@@ -287,11 +301,11 @@
 
 }
 .form__elem{
-	margin-top: 30px;
+	margin-top: 18px;
 	display: inline-block;
 }
 .form__elem:first-child{
-	margin-right: 23px;
+	margin-right: 16px;
 }
 .form__elem-title{
 	display: inline-block;
@@ -301,10 +315,10 @@
 	font-weight: 300;
 }
 .form__input{
-	margin-top: 10px;
+	margin-top: 4px;
 	display: block;
-	width: 269px;
-	height: 45px;
+	width: 268px;
+	height: 44px;
 	background-color: #ffffff;
 }
 .form__textarea{
@@ -320,9 +334,6 @@
 .form__row{
 	clear:both;
 }
-.form__rasius{
-	display: inline-block;
-}
 .form__radius-header{
 	margin-top:  19px;
 	color: #221f1f;
@@ -337,10 +348,6 @@
 .form__radius-content{
 	margin-bottom: 9px;
 }
-.form__send{
-	display: inline-block;
-
-}
 .form__radio-name{
 	width: 16px;
 	height: 13px;
@@ -349,6 +356,9 @@
 	font-size: 14px;
 	font-weight: 300;
 	line-height: 54px;
+}
+.form__send{
+	float: right;
 }
 .form__submit{
 	width: 125px;
@@ -364,7 +374,7 @@
 	letter-spacing: 1.2px;
 }
 .footer{
-	margin-top: 70px;
+	margin-top: -7px;
 	width: 100%;
 	clear: both;
 	height: 77px;
@@ -384,6 +394,13 @@
 	font-size: 14px;
 	font-weight: 300;
 }
+.footer__loftschool{
+	font-weight: 700;
+	text-decoration: underline;
+}
+.footer__name{
+	font-weight: 700;
+}
 .logo-text--center{
 	margin-top: 29px;
 	vertical-align: middle;
@@ -395,7 +412,7 @@
 }
 .socials__text{
 	margin-top: 20px;
-	width: 174px;
+	width: 175px;
 	height: 13px;
 	color: #ffffff;
 	font-family: "Open Sans";
