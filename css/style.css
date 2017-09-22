@@ -74,6 +74,9 @@ html, body{
 	text-transform: uppercase;
 	letter-spacing: 1.8px;
 }
+address{
+	font-style:normal;
+}
 .contacts{
 	float: right;
 	padding-right: 21px; 
@@ -107,13 +110,13 @@ html, body{
 }
 .demo-icon{
 	margin-right: 18px;
-	font-size: 12px;
+	font-size: 14px;
 }
 .navigation{
 	margin-left: 19px;
 	margin-top: 50px;	
-	width:102px;
-	margin-right: 78px;
+	width:104px;
+	margin-right: 76px;
 	float:left;
 }
 .navigation__list{
@@ -413,7 +416,6 @@ html, body{
 .socials__text{
 	margin-top: 20px;
 	width: 175px;
-	height: 13px;
 	color: #ffffff;
 	font-family: "Open Sans";
 	font-size: 14px;
@@ -424,6 +426,21 @@ html, body{
 	list-style-type: none;
 }
 .socials__elem{
+	line-height:1.15;
+	text-align: center;
+	width: 20px;
+	height: 20px;
+	background-color: #d0d0d0;
+	border-radius: 50%;
+	margin-top:8px;
 	display: inline-block;
-
 }
+.socials__elem:hover{
+	background-color: #f89513;
+}
+.socials__link{
+	display: inline-block;
+	color: #27273e;
+	font-size: 12px;
+}
+
