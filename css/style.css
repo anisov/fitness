@@ -626,66 +626,67 @@ address{
 }
 .partners__elem-img{
 	display: inline-block;
+	background: url(../img/main/partners/company-sprite.png);
 }
 .partners__elem-img--flamingo{
 	width: 141px;
 	height: 63px;
-	background: url(../img/main/partners/logo-1.png) center center no-repeat;
+	background-position: -201px 0;
 }
 .partners__elem-img--flamingo:hover{
 	width: 141px;
 	height: 63px;
-	background: url(../img/main/partners/logo-1_1.png) center center no-repeat;
+	background-position: -201px bottom;
 }
 .partners__elem-img--malibu{
 	width: 160px;
 	height: 29px;
-	background: url(../img/main/partners/logo-2.png) center center no-repeat;
+	background-position: -400px 0;
 }
 .partners__elem-img--malibu:hover{
 	width: 160px;
 	height: 29px;
-	background: url(../img/main/partners/logo-2_2.png) center center no-repeat;
+	background-position: -400px bottom;
 }
 .partners__elem-img--lion{
 	width: 61px;
 	height: 62px;
-	background: url(../img/main/partners/logo-3.png) center center no-repeat;
+	background-position: -600px 0;
 }
 .partners__elem-img--lion:hover{
 	width: 61px;
 	height: 62px;
-	background: url(../img/main/partners/logo-3_3.png) center center no-repeat;
+	background-position: -600px bottom;
 }
 .partners__elem-img--arni{
 	width: 125px;
 	height: 64px;
-	background: url(../img/main/partners/logo-4.png) center center no-repeat;
+	background-position: -801px 0;
 }
 .partners__elem-img--arni:hover{
 	width: 125px;
 	height: 64px;
-	background: url(../img/main/partners/logo-4_4.png) center center no-repeat;
+	background-position: -801px bottom;
 }
 .partners__elem-img--grif{
 	width: 160px;
 	height: 46px;
-	background: url(../img/main/partners/logo-5.png) center center no-repeat;
+	background-position: -1000px 0;
 }
 .partners__elem-img--grif:hover{
 	width: 160px;
 	height: 46px;
-	background: url(../img/main/partners/logo-5_5.png) center center no-repeat;
+	background-position: -1000px bottom;
 }
 .partners__elem-img--atletiko{
 	width: 43px;
 	height: 63px;
-	background: url(../img/main/partners/logo-6.png) center center no-repeat;
+	background-position: 0 0 ;
 }
 .partners__elem-img--atletiko:hover{
 	width: 43px;
 	height: 63px;
-	background: url(../img/main/partners/logo-6_6.png) center center no-repeat;
+	background-position:0 bottom;
 }
 /* services.html*/
 .services{
