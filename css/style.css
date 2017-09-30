@@ -319,7 +319,7 @@ address{
 	height: 160px;
 	background-color: #f5f5f5;
 	border-radius: 100%;
-
+	object-fit: scale-down;
 }
 .comments__desc{
     margin-left: 20px;
